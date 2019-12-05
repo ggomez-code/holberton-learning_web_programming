@@ -8,14 +8,24 @@
   </head>
   <body>
     <div class="container">
+      <div class="row" style="height:50px;border: 2px solid grey">
+        <div class="topleft">First Row</div>
+      </div>
+      <div class="row" style="height:50px">
+        <div class="col"></div>
+      </div>
         <div class="jumbotron">
           <center>
             Hello
           </center>
         </div>
-        <!--Row with one column-->
-        <div class="row" style="background-color:blue;height:200px">
-            <div class="col">Bingo</div>
+        <div class="row" style="height:200px">
+            <div class="col" style="background-color:blue">First Col</div>
+            <div class="col" style="background-color:white">Second Col</div>
+            <div class="col" style="background-color:red">Third Col</div>
+        </div>
+        <div class="row" style="height:50px;border: 2px solid grey; position: absolute; bottom: 10px; width: 100%">
+          <div class="topleft">Third Row</div>
         </div>
     </div>
   </body>
